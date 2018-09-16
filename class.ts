@@ -16,8 +16,6 @@ function greeter(person: Person) {
 }
 
 let user = new Teacher("Jane", "G.", "Doe")
+let mathsTeacher = new Teacher("Gemma", "Jane", "Allen");
 
 document.body.innerHTML = greeter(user);
-
-let mathsTeacher = new Teacher("Gemma", "Jane", "Allen");
-console.log(mathsTeacher.fullName);
